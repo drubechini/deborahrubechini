@@ -1,0 +1,127 @@
+body {
+    /* background*/
+    background-color: LightYellow;
+
+     /* texto*/
+    font-family: 'Franklin Gothic';
+    text-align: justify;
+
+    /* alinhamento e tamanho */
+    width: 85%;
+    margin: auto;
+}
+
+section{
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+.estante {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #8329A7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+ }
+
+h4 {
+color: white;
+}
+
+#sumario {
+    text-align: center;
+    color: Navy;
+    background-color: Linen;
+    padding: 20px;
+    margin-bottom: 50px;
+   border-radius: 10px;
+}
+
+.titulo-livro {
+    color: Navy;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragrafo-info {
+    color: MidnightBlue;
+    text-indent: 50px; /* identação na primeira linha */
+}
+
+#l1, #l3, #l5{
+    background-color: #EFD4FA;
+    border-radius: 30px;
+}
+
+.sinopse {
+    color: Navy;
+}
+
+ol li a {
+    text-decoration: none;
+    color: MidnightBlue;
+}
+
+a:visited{
+    color: RoyalBlue;
+}
+
+a:hover{
+  color: BlueViolet;
+}
+
+span {
+    color: RoyalBlue;
+}
+
+/* tabela */
+table {
+    text-align: center;
+    width: 100%;
+}
+
+th, td{
+    color: BlueViolet;
+    padding: 8px;
+    /* borda */
+    border-width: 3px;
+    border-style: solid;
+}
+
+th {
+    background-color: #D8BFD8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: Linen;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+.fonte {
+    color: MidnightBlue;
+}
+
+.imagem-capa {
+    width: 35%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+ol{
+    text-align: center;
+    list-style-position: inside;
+}

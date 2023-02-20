@@ -1,0 +1,136 @@
+/*menu*/
+.navbar{
+    background-color: #c59ea3;
+}
+
+
+.navbar a{
+color: #2b455e;
+padding: 10px 5px;
+margin-right: 5px;
+font-weight: 600;
+}
+
+.navbar a:hover{
+    background-color:white;
+    color: #c59ea3;
+}
+
+
+/*texto hero image*/
+.hero_titulo{
+    font-size: 4.5rem;
+}
+
+.hero_desc{
+    font-size: 2rem;
+}
+
+.hero-text{
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.bgimage{
+    height: 100vh;
+    background: url('img/capa2azul.png');
+    background-size: cover;
+    position: relative;
+    
+}
+
+/*imagem sobre */
+.imagemSobre{
+    width: 100%;
+}
+
+.titulo{
+    color: #c59ea3;
+    text-align: center;
+}
+
+.paragrafo{
+    color: #2b455e;
+}
+
+.site{
+    color: #c59ea3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.site:hover{
+    color: #0d202f;
+}
+
+/* serviços/habilidades */
+
+.servicesText.card{
+height: 280px;
+cursor: pointer;
+}
+
+
+.servicesIcon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card:hover .servicesIcon{
+    color: #c59ea3;
+}
+
+.servicesText:hover{
+    border: 1px solid #818294;;
+}
+
+.subtitulo{
+    color: #818294;
+}
+
+.hab{
+    width: 100%;
+}
+
+span{
+    font-size: 10px;
+}
+
+/*Contato*/
+.contactIcon{
+    font-size: 56px;
+    color:  #818294;
+}
+
+.rede:hover{
+    color:  #c59ea3;
+}
+
+
+.glass{
+height: 40%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+#sobre, #habilidades, #portfolio, #contato{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
